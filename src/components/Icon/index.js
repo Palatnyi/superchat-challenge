@@ -1,4 +1,4 @@
-import SuperchatIcon, { icons } from './Icon';
+import SuperChatIcon, { icons } from './Icon';
 
-export default SuperchatIcon;
+export default SuperChatIcon;
 export { icons };

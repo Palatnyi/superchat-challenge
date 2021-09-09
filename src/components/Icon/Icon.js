@@ -12,9 +12,11 @@ function SuperchatIcon({ icon }) {
   if (!icons[icon]) {
     return null;
   }
-    
+
+  const Icon = icons[icon];
+
   return (
-    icons[icon]
+    <Icon />
   );
 }
 
